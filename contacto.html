@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="estilo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-contacto.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+           <img src="Img/image2.png" alt="logo" id="logo"> 
+        </header>
+        <nav class="topnav">
+                <a href="index.html" class="contacto">HOME</a>  
+                <a href="destinos.html" class="contacto">DESTINOS</a> 
+                <a href="contacto.html" class="contacto">CONTACTO</a> 
+        </nav>
+        <section class="preguntas-frecuentes-section">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="pregunta">
+                    <h3>¿Cómo puedo reservar un viaje?</h3>
+                        <p>Puedes reservar contactándonos por email a agenciadeturismo@gmail.com o llamando al 3886128809.</p>
+            </div>
+            <div class="pregunta">
+                    <h3>¿Qué métodos de pago aceptan?</h3>
+                        <p>Aceptamos transferencias bancarias, efectivo y tarjetas de crédito/débito.</p>
+            </div>
+
+            <div class="pregunta">
+                    <h3>¿Puedo cancelar mi reserva?</h3>
+                        <p>Sí, contáctanos y te informamos sobre las políticas de cancelación según tu paquete.</p>
+            </div>
+
+            <div class="pregunta">
+                    <h3>¿Hacen paquetes personalizados?</h3>
+                        <p>Sí, armamos el viaje que vos quieras según tu presupuesto y preferencias.</p>
+            </div>
+
+        </section>
+        <section class="formulario-contacto">
+            <h2>¿Tenés alguna consulta?</h2>
+                <p class="subtitulo">Envianos tu pregunta y te respondemos a la brevedad</p>
+        <form action="mailto:agenciadeturismo@gmail.com" method="POST" enctype="text/plain">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+    
+            <button type="submit">Enviar Consulta</button>
+        </form>
+
+        <footer>
+            <div id="footer">
+                <a href="#" class="contacto">AGENCIADETURISMO@GMAIL.COM</a>
+                <a href="#" class="contacto">CONTACTO: 3886128809</a>
+            </div>
+        </footer>
+    </div> 
+</body>
+</html>
