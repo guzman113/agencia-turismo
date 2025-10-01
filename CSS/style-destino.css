@@ -1,0 +1,218 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1587642314856-a00a0e4aee60?fm=jpg&ixid=M3wxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDE2fHx8ZW58MHx8fHx8&ixlib=rb-4.0.3&q=60&w=3000");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Poppins, Helvetica, sans-serif;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+nav {
+    display: block;
+    height: 40px;
+}
+
+header {
+    background-color: beige; 
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 15px;
+}
+
+a {
+    text-align: center;
+    font-size: 10px;
+    font-family: Poppins, Helvetica, sans-serif;
+    text-shadow: none;
+}
+
+footer {
+    background-color: #CC5500;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    height: 50px;
+}
+
+footer a {
+    color: white;              
+    text-decoration: none;       
+    font-weight: bold;           
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff8e7;
+}
+
+h1 {
+    color: #ddd;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+iframe {
+    width: 100%;
+    max-width: 340px;
+    height: 220px;
+    
+}
+.topnav {
+    overflow: hidden;
+    background-color: #CC5500;
+    display: flex;
+    align-items: center;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.logo-container {
+    background: white;         
+    text-align: left;          
+    padding: 10px;            
+}
+
+.contenedor {
+    max-width: 1100px;  
+    background-color: beige;
+    margin: 0 auto; 
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contacto {
+    padding: 10px;
+    justify-content: space-between;
+    color: beige;
+    font-size: 15px;
+}
+
+.destinos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 10px;
+    gap: 30px;
+}
+
+.destinos img {
+    display: block;
+    border-radius: 15px; 
+}
+
+.card {
+    color: beige;
+    border-radius: 15px;
+    width: 340px;
+    overflow: hidden;
+    text-align: left;
+    background: beige;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 340px;
+    height: 175px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card h3 {
+    margin-top: 5px;
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+    text-align: center;     
+    margin: 10px 0;
+    color: #d35400;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.card h4 {
+    margin: 10px 15px 5px;  
+    font-size: 16px;
+    color: black;
+    text-shadow: none;
+    font-family: Poppins, sans-serif;
+}
+
+.card p {
+    margin: 0 15px 15px;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    text-shadow: none;
+    font-family: Poppins, sans-serif;
+}
+
+.card li {
+    text-shadow: none;
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+}
+
+.resaltado {
+    background-color: #d35400;
+    color: white;
+    padding: 0.4em 0.8em;
+    border-radius: 0.5em;
+    display: inline-block;
+    box-shadow: 0 3px 10px rgba(211, 84, 0, 0.3);
+}
+
+#logo {
+    border-radius: 20px;
+    width: 200px;
+    height: auto;
+    background-color: beige;
+}
+
+#frase {
+    font-family: Poppins, sans-serif;
+    margin: 20px;
+    color: #CC5500;
+    text-shadow: none;
+}
+
+#parteCentral {
+    max-width: 1100px;
+    margin: 0 auto; 
+    border-radius: 20px;
+}
+
+#footer {
+    padding: 15px 0;
+    background-color: #CC5500;
+    height: 20px;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
